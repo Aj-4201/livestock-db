@@ -1,0 +1,15 @@
+# Secrets / local config — NEVER commit
+.env
+.env.*
+!.env.example
+
+# dbmate / migration tooling
+.dbmate*
+*.local.sql
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
